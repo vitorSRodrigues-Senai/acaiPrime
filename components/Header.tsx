@@ -1,11 +1,10 @@
-import { Ionicons } from '@expo/vector-icons';
 import { Image, StyleSheet, Text, View } from "react-native";
 
 export default function Header() {
     return (
         <View style={styles.header}>
             <View>
-                <Text style={styles.headerTitle}>Acaí Prime</Text>
+                <Text style={styles.headerTitle}>Açaí Prime</Text>
                 <Text style={styles.headerSubtitle}>O sabor puro da Amazônia</Text>
             </View>
 
